@@ -1,13 +1,20 @@
 #about{
     display: flex;
-    padding: .5rem 0;
+    padding: .5rem;
     background-color: var(--secondary-bg-color);
+    align-items: center;
+
+    h2{
+        display: flex;
+        justify-content: space-between;
+    }
 
     .mainContent{
         display: flex;
         align-items: center;
         margin: auto;
-        gap: 1rem;
+        gap: 6rem;
+        max-height: 350px;
 
         .aboutMe{
             display: flex;
@@ -19,11 +26,29 @@
                 font-size: 14px;
                 font-weight: normal;
                 text-align: start;
+                line-height: 1.4;
             }
         }
 
         .tech{
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            gap: 1rem;
+            justify-content: center;
 
+
+            div{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+
+            div div{
+                background-color: var(--primary-bg-color);
+                padding: .75rem;
+                border-radius: .5rem;
+            }
         }
     }
 }
