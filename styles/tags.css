@@ -1,0 +1,13 @@
+.python{
+    color: #fcd564;
+    border: 1px solid #fcd564;
+    padding: .3rem .5rem;
+    border-radius: 2rem;
+}
+
+.sql{
+    color: #6999f8;
+    border: 1px solid #6999f8;
+    padding: .3rem .5rem;
+    border-radius: 2rem;
+}
