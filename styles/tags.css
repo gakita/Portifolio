@@ -1,13 +1,39 @@
 .python{
-    color: #fcd564;
-    border: 1px solid #fcd564;
-    padding: .3rem .5rem;
-    border-radius: 2rem;
+    color: #3572a5;
+    border: 1px solid #3572a5;
 }
 
 .sql{
-    color: #6999f8;
-    border: 1px solid #6999f8;
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+}
+
+.kotlin{
+    color: #a97bff;
+    border: 1px solid #a97bff;
+}
+
+.firebase{
+    color: #dd2c00;
+    border: 1px solid #dd2c00;
+}
+
+.react{
+    color: #58c4dc;
+    border: 1px solid #58c4dc;
+}
+
+.html{
+    color: #e44d26;
+    border: 1px solid #e44d26;
+}
+
+.css{
+    color: #663399;
+    border: 1px solid #663399;
+}
+
+.tag{
     padding: .3rem .5rem;
     border-radius: 2rem;
 }

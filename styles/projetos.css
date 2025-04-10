@@ -14,17 +14,23 @@
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: var(--secondary-bg-color);
     padding: 3rem;
     gap: 1rem;
     border-radius: 1rem;
+    max-height: 350px;
+    transition: .3s;
+    cursor:pointer;
 
     h1{
         font-size: 24px;
+        padding-block: .5rem;
     }
 
     p{
         font-size: 16px;
+        font-weight: normal;
     }
 
     .tags{
@@ -32,4 +38,23 @@
         align-items: center;
         gap: 1rem;
     }
+
+    &:hover{
+        transform: translateY(-5px);
+    }
 }
+
+@media (max-width: 768px) {
+    #projetos .cards {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    #projetos .cards {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
+  

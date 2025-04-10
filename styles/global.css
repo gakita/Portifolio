@@ -37,3 +37,11 @@ a{
     max-width: 80%;
     padding-block: 2rem;
 }
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 95%;
+      padding: 0 1rem;
+    }
+  }
+  
