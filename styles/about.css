@@ -15,6 +15,7 @@
         margin: auto;
         gap: 6rem;
         max-height: 350px;
+        padding: 3rem;
 
         .aboutMe{
             display: flex;
@@ -23,10 +24,10 @@
             gap: 10px;
 
             p{
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: normal;
                 text-align: start;
-                line-height: 1.4;
+                line-height: 1.2;
             }
         }
 
