@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-bg-color:#161126;
+    --secondary-bg-color:#0e0b1a;
+    --primary-text:#f0f0f0;
+    --secondary-text:#cccccc;
+    --highlight-color:#714ba2;
+    --links:#ffffff;
+    --border-color:#714ba2;
+}
+
+
+body{
+    font-family: "Inter",sans-serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text);
+}
+
+h1,h2,h3{
+    font-family: "Poppins",sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 80%;
+    padding-block: 2rem;
+}
