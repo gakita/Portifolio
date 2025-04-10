@@ -1,6 +1,29 @@
 #about{
     display: flex;
+    padding: .5rem 0;
     background-color: var(--secondary-bg-color);
 
+    .mainContent{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        gap: 1rem;
 
+        .aboutMe{
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            gap: 10px;
+
+            p{
+                font-size: 14px;
+                font-weight: normal;
+                text-align: start;
+            }
+        }
+
+        .tech{
+
+        }
+    }
 }
