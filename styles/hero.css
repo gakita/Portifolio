@@ -62,6 +62,26 @@ span{
     }
 }
 
+.curriculo{
+    margin-block: 1rem;
+    a{
+        display: flex;
+        align-items: center;
+        width: 150px;
+        background-color: var(--primary-text);
+        color: var(--secondary-bg-color);
+        transition: .3s;
+        padding: .5rem 1rem;
+        border-radius: 1rem;
+        font-weight: bold;
+
+        &:hover{
+            background-color: var(--highlight-color);
+            color: var(--primary-text);
+        }
+    }
+}
+
 @media (max-width: 768px) {
     #hero {
       flex-direction: column;
